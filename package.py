@@ -32,7 +32,8 @@ assemblies = [
     "UnityEngine.CoreModule",
     "UnityEngine.UI",
     "UnityEngine.ImageConversionModule",
-    "UnityEngine.Physics2DModule"
+    "UnityEngine.Physics2DModule",
+    "UnityEngine.IMGUIModule"
 ]
 if os.path.isdir("lib"):
     shutil.rmtree("lib")
